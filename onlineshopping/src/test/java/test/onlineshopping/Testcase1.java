@@ -19,6 +19,7 @@ public class Testcase1 {
 		  driver.get("https://accounts.google.com/signin");
 		  
 		  //idenifying element by id
+		  //samle comment2
 		  driver.findElement(By.id("identifierId")).sendKeys("himaja.gandham@gmail.com");
 		  driver.close();
 	

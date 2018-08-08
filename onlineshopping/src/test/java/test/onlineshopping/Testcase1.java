@@ -17,6 +17,8 @@ public class Testcase1 {
 		  WebDriver driver=new FirefoxDriver();
 		  
 		  driver.get("https://accounts.google.com/signin");
+		  
+		  //idenifying element by id
 		  driver.findElement(By.id("identifierId")).sendKeys("himaja.gandham@gmail.com");
 		  driver.close();
 	

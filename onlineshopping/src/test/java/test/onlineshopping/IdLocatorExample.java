@@ -22,6 +22,7 @@ public class IdLocatorExample {
 	
 		
 		driver.get("https://accounts.google.com/signin");
+		System.out.println(driver.getCurrentUrl());
 		
 		
 		WebElement ref= driver.findElement(By.id("identifierId"));

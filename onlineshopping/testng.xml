@@ -4,6 +4,7 @@
  <test name="testngTest">
  <classes>
  <class name="test.onlineshopping.IdLocatorExample" />
+ <class name="test.onlineshopping.Hello" />
  </classes>
  </test>
 </suite>
